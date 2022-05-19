@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: calc(100% - 48px * 2);
+    max-width: 1184px;
+    margin: 0 auto;
+    padding: 28px 0 0 0;
+}
+
+.header__links {
+    margin: 18px 0 6px;
+}
+
+.header__lang-link {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.header__lang-link:first-of-type {
+    margin: 0 18px 0 0;
+}

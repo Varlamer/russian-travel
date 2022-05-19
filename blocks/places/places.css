@@ -1,0 +1,57 @@
+.places {
+    display: grid;
+    row-gap: 80px;
+    max-width: calc(100% - 148px * 2);
+    margin: 0 auto;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 460px minmax(min-content, max-content);
+    gap: 48px 40px;
+}
+
+.card__image {
+    max-width: 460px;
+    max-height: 460px;
+}
+
+.card__title {
+    max-width: 460px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    margin: 0;
+}
+
+.card__link-container {
+    align-self: end;
+}
+
+.card__link-heading {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 170%;
+    letter-spacing: 2px;
+    color: #AAAAAA;
+}
+
+.card__link {}
+
+.card__text {
+    display: grid;
+    row-gap: 26px;
+    align-self: start;
+    max-width: 484px;
+}
+
+.card__paragraph {
+    max-width: 484px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    margin: 0;
+}
