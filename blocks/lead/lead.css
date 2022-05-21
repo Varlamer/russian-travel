@@ -1,114 +1,126 @@
+.lead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 984px;
+    margin: 56px auto 114px auto;
+}
+
+@media screen and (max-width:1024px) {
     .lead {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        max-width: 984px;
-        margin: 56px auto 114px auto;
+        margin: 48px auto 92px auto;
     }
-    
+}
+
+@media screen and (max-width:768px) {
+    .lead {
+        margin: 48px auto 88px auto;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .lead {
+        margin: 48px auto 64px auto;
+    }
+}
+
+.lead__title {
+    margin: 0 auto;
+    min-width: 288px;
+    max-width: 720px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+    text-align: center;
+}
+
+@media screen and (max-width:670px) {
     .lead__title {
-        margin: 0 auto;
-        min-width: 288px;
-        max-width: 720px;
-        font-style: normal;
-        font-weight: 900;
-        font-size: 96px;
-        line-height: 100px;
-        text-align: center;
+        max-width: 500px;
+        font-size: 40px;
+        line-height: 44px;
     }
-    
+}
+
+@media screen and (max-width:320px) {
+    .lead__title {
+        max-width: 288px;
+    }
+}
+
+.lead__subtitle {
+    margin: 32px auto 64px auto;
+    min-width: 288px;
+    max-width: 640px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+}
+
+@media screen and (max-width:1024px) {
     .lead__subtitle {
-        margin: 32px auto 64px auto;
-        min-width: 288px;
-        max-width: 640px;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 30px;
-        line-height: 36px;
-        text-align: center;
+        margin: 32px auto 56px auto;
     }
-    
+}
+
+@media screen and (max-width:670px) {
+    .lead__subtitle {
+        max-width: 500px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .lead__subtitle {
+        max-width: 288px;
+        margin: 16px auto 40px auto;
+    }
+}
+
+.lead__image {
+    margin: 0;
+    padding: 0;
+    max-width: 984px;
+}
+
+@media screen and (max-width: 1025px) {
     .lead__image {
-        margin: 0;
-        padding: 0;
-        max-width: 984px;
+        max-width: 928px;
     }
-    
-    @media screen and (max-width: 1025px) {
-        .lead__image {
-            max-width: 928px;
-        }
+}
+
+@media screen and (max-width: 948px) {
+    .lead__image {
+        width: 100%;
     }
-    
-    @media screen and (max-width: 948px) {
-        .lead__image {
-            width: 100%;
-        }
-    }
-    
+}
+
+.lead__caption {
+    display: flex;
+    align-self: start;
+    margin: 8px 0 0 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 1023px) {
     .lead__caption {
-        display: flex;
-        align-self: start;
-        margin: 8px 0 0 0;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 10px;
-        line-height: 14px;
-        letter-spacing: 1.5px;
-        text-transform: uppercase;
+        margin: 8px 0 0 24px;
     }
-    
-    @media screen and (max-width:1024px) {
-        .lead__subtitle {
-            margin: 32px auto 56px auto;
-        }
+}
+
+@media screen and (max-width: 767px) {
+    .lead__caption {
+        margin: 8px 0 0 16px;
     }
-    
-    @media screen and (max-width:1024px) {
-        .lead {
-            margin: 48px auto 92px auto;
-        }
-    }
-    
-    @media screen and (max-width:768px) {
-        .lead {
-            margin: 48px auto 88px auto;
-        }
-    }
-    
-    @media screen and (max-width:670px) {
-        .lead__title {
-            max-width: 500px;
-            font-size: 40px;
-            line-height: 44px;
-        }
-    }
-    
-    @media screen and (max-width:670px) {
-        .lead__subtitle {
-            max-width: 500px;
-            font-size: 16px;
-            line-height: 20px;
-        }
-    }
-    
-    @media screen and (max-width:320px) {
-        .lead {
-            margin: 48px auto 64px auto;
-        }
-    }
-    
-    @media screen and (max-width:320px) {
-        .lead__title {
-            max-width: 288px;
-        }
-    }
-    
-    @media screen and (max-width:320px) {
-        .lead__subtitle {
-            max-width: 288px;
-            margin: 16px auto 40px auto;
-        }
-    }
+}
