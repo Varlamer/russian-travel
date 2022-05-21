@@ -1,0 +1,29 @@
+.card {
+    display: grid;
+    grid-template-columns: 460px minmax(min-content, max-content);
+    gap: 48px 40px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1080px) {
+    .card {
+        grid-template-columns: 440px minmax(min-content, max-content);
+        gap: 48px 32px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .card {
+        grid-template-columns: 340px minmax(min-content, max-content);
+        gap: 48px 28px;
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .card {
+        grid-template-columns: minmax(min-content, max-content);
+        gap: 48px 0;
+        max-width: 720px;
+    }
+}

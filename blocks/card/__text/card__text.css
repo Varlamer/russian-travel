@@ -1,0 +1,29 @@
+.card__text {
+    display: grid;
+    row-gap: 26px;
+    align-self: start;
+    max-width: 484px;
+}
+
+@media screen and (max-width: 1080px) {
+    .card__text {
+        row-gap: 27px;
+        align-self: start;
+        max-width: 456px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .card__text {
+        row-gap: 25px;
+        align-self: start;
+        max-width: 358px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .card__text {
+        max-width: 288px;
+        margin: 0 auto;
+    }
+}

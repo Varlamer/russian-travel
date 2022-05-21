@@ -1,0 +1,21 @@
+.card__image {
+    max-height: 460px;
+}
+
+@media screen and (max-width: 1080px) {
+    .card__image {
+        max-height: 440px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .card__image {
+        max-height: 340px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .card__image {
+        max-height: 320px;
+    }
+}

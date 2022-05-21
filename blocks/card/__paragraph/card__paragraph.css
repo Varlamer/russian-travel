@@ -1,0 +1,20 @@
+.card__paragraph {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    margin: 0;
+}
+
+@media screen and (max-width: 1023px) {
+    .card__paragraph {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .card__paragraph {
+        max-width: 288px;
+        margin: 0 auto;
+    }
+}
