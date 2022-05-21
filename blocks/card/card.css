@@ -23,7 +23,7 @@
 @media screen and (max-width: 720px) {
     .card {
         grid-template-columns: minmax(min-content, max-content);
-        gap: 48px 0;
+        gap: 32px 0;
         max-width: 720px;
     }
 }
