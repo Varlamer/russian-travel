@@ -1,9 +1,4 @@
 .content {
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    row-gap: 92px;
-    width: 100%;
     padding: 0;
     margin: 0 auto;
 }
